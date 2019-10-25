@@ -12,4 +12,9 @@ export class FooComponent implements OnInit {
   ngOnInit() {
   }
 
+  sharedData = 'Foo Shared Data';
+
+  changeSharedData = () => {
+    console.log('changeSharedData()');
+  }
 }
